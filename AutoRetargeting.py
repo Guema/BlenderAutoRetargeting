@@ -11,8 +11,8 @@ def normlize_BVH(animation):
 
 def retarget(rig, animation):
     """ this function retarget context animation on rig"""
-    bpy.context.space_data.context = 'OBJECT'
-    bpy.data.armature[]
+    # bpy.context.space_data.context = 'OBJECT'
+    bpy.data.armature[animation.name]
     return
 
 if len(bpy.context.selected_objects) == 1:
